@@ -1,1 +1,205 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Community Support Hub</title><link rel="stylesheet" href="assets/css/styles.css"></head><body data-page="services"><div id="global-top"></div><div id="global-header"></div><main class="section"><div class="container"><h1>Community Support Hub</h1><p>Filter verified support services by state, LGA, and category.</p><div class="filters"><select><option>Nigeria</option></select><select><option>Lagos</option><option>FCT</option><option>Kano</option></select><select><option>Ikeja</option><option>Abuja Municipal</option></select><select><option>Medical Outreach</option><option>Skills Acquisition</option><option>Career Training</option></select></div><div class="grid grid-3"><article class="card"><img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=700&q=60" alt="Medical outreach"><span class="label">Verified</span><h3>Service 1</h3><p>Address and support details with map/contact links.</p><p><a href="#">Map</a> · <a href="mailto:service1@ftn.ng">Email</a> · <a href="tel:+2348000001">Call</a></p><button class="btn" data-track="service-saved">Save</button></article><article class="card"><img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=700&q=60" alt="Medical outreach"><span class="label">Verified</span><h3>Service 2</h3><p>Address and support details with map/contact links.</p><p><a href="#">Map</a> · <a href="mailto:service2@ftn.ng">Email</a> · <a href="tel:+2348000002">Call</a></p><button class="btn" data-track="service-saved">Save</button></article><article class="card"><img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=700&q=60" alt="Medical outreach"><span class="label">Verified</span><h3>Service 3</h3><p>Address and support details with map/contact links.</p><p><a href="#">Map</a> · <a href="mailto:service3@ftn.ng">Email</a> · <a href="tel:+2348000003">Call</a></p><button class="btn" data-track="service-saved">Save</button></article></div></div></main><div id="global-footer"></div><div class="chatbot" id="chatbot"></div><script src="assets/js/main.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Community Support Hub</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="services">
+  <div id="global-top"></div>
+  <div id="global-header"></div>
+
+  <main class="section">
+    <div class="container">
+      <h1>Community Support Hub</h1>
+      <p>Find verified services by location and support type. Choose your state and LGA, then filter by category to discover relevant community assistance quickly.</p>
+
+      <div class="filters">
+        <select aria-label="Country">
+          <option>Nigeria</option>
+        </select>
+        <select aria-label="State">
+          <option>Lagos</option>
+          <option>FCT</option>
+          <option>Kano</option>
+          <option>Oyo</option>
+          <option>Rivers</option>
+        </select>
+        <select aria-label="LGA">
+          <option>Ikeja</option>
+          <option>Abuja Municipal</option>
+          <option>Nassarawa</option>
+          <option>Ibadan North</option>
+          <option>Port Harcourt</option>
+        </select>
+        <select aria-label="Service category">
+          <option>Health &amp; Medical Support</option>
+          <option>Food &amp; Basic Relief Support</option>
+          <option>Education &amp; Learning Support</option>
+          <option>Skills Development &amp; Career Growth</option>
+          <option>Employment &amp; Economic Empowerment</option>
+          <option>Family, Women &amp; Child Support</option>
+          <option>Youth Empowerment &amp; Personal Development</option>
+          <option>Mental Health &amp; Counseling Support</option>
+          <option>Legal &amp; Community Protection Services</option>
+          <option>Special Needs &amp; Inclusive Support</option>
+        </select>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=900&q=80" alt="Doctor supporting a patient during a community checkup">
+          <span class="label">Health &amp; Medical Support</span>
+          <h3>Physical wellbeing and preventive healthcare</h3>
+          <ul class="list-clean">
+            <li>Free medical checkups</li>
+            <li>Community health outreach</li>
+            <li>Maternal and child health support</li>
+            <li>Drug and medication assistance</li>
+            <li>Eye and dental care outreach</li>
+            <li>Immunization support</li>
+            <li>Health education and awareness</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80" alt="Volunteers distributing food and relief packages">
+          <span class="label">Food &amp; Basic Relief Support</span>
+          <h3>Immediate welfare and emergency relief</h3>
+          <ul class="list-clean">
+            <li>Food relief and meal support</li>
+            <li>Nutrition assistance</li>
+            <li>Emergency food distribution</li>
+            <li>Clean water support</li>
+            <li>Hygiene and sanitation support</li>
+            <li>Shelter and temporary relief assistance</li>
+            <li>Disaster and emergency response support</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80" alt="Students learning together in a classroom">
+          <span class="label">Education &amp; Learning Support</span>
+          <h3>Access to learning and academic progress</h3>
+          <ul class="list-clean">
+            <li>Academic support classes</li>
+            <li>School supplies assistance</li>
+            <li>Scholarship and bursary support</li>
+            <li>Online learning opportunities</li>
+            <li>Adult literacy programs</li>
+            <li>Examination preparation support</li>
+            <li>Educational guidance and mentorship</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80" alt="Young professional presenting digital skills training">
+          <span class="label">Skills Development &amp; Career Growth</span>
+          <h3>Practical skills and long-term growth</h3>
+          <ul class="list-clean">
+            <li>Career training</li>
+            <li>Skills acquisition programs</li>
+            <li>Vocational training</li>
+            <li>Digital literacy training</li>
+            <li>Job readiness support</li>
+            <li>CV/resume guidance and interview prep</li>
+            <li>Internship opportunities</li>
+            <li>Entrepreneurship and financial literacy training</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80" alt="Small business owner discussing growth plans">
+          <span class="label">Employment &amp; Economic Empowerment</span>
+          <h3>Income generation and financial stability</h3>
+          <ul class="list-clean">
+            <li>Job placement assistance</li>
+            <li>Employment support services</li>
+            <li>Small business and startup guidance</li>
+            <li>Business mentoring</li>
+            <li>Youth employment opportunities</li>
+            <li>Income-generating initiatives</li>
+            <li>Cooperative and empowerment schemes</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=80" alt="Mother and child receiving family support services">
+          <span class="label">Family, Women &amp; Child Support</span>
+          <h3>Strengthening families and protecting vulnerable groups</h3>
+          <ul class="list-clean">
+            <li>Women empowerment support</li>
+            <li>Child welfare services</li>
+            <li>Family counseling and parenting support</li>
+            <li>Orphan and vulnerable child assistance</li>
+            <li>Domestic violence support and safe referrals</li>
+            <li>Maternal support services</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Youth group participating in leadership workshop">
+          <span class="label">Youth Empowerment &amp; Personal Development</span>
+          <h3>Helping young people grow and lead</h3>
+          <ul class="list-clean">
+            <li>Youth empowerment initiatives</li>
+            <li>Leadership development</li>
+            <li>Mentorship programs</li>
+            <li>Personal development workshops</li>
+            <li>Volunteer development</li>
+            <li>Community engagement opportunities</li>
+            <li>Life skills training</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=900&q=80" alt="Counselor providing emotional support session">
+          <span class="label">Mental Health &amp; Counseling Support</span>
+          <h3>Emotional and psychological wellbeing services</h3>
+          <ul class="list-clean">
+            <li>Mental health awareness</li>
+            <li>Counseling services</li>
+            <li>Trauma and grief support</li>
+            <li>Stress management support</li>
+            <li>Emotional wellness programs</li>
+            <li>Family and relationship counseling</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=900&q=80" alt="Community legal team discussing rights awareness">
+          <span class="label">Legal &amp; Community Protection Services</span>
+          <h3>Rights protection and trusted legal pathways</h3>
+          <ul class="list-clean">
+            <li>Legal aid services</li>
+            <li>Documentation and ID support</li>
+            <li>Community protection support</li>
+            <li>Rights awareness education</li>
+            <li>Mediation and conflict support</li>
+            <li>Referral to trusted NGOs and service providers</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1516307365426-bea591f05011?auto=format&fit=crop&w=900&q=80" alt="Inclusive support professional assisting an elderly person in wheelchair">
+          <span class="label">Special Needs &amp; Inclusive Support</span>
+          <h3>Inclusive care for people with additional needs</h3>
+          <ul class="list-clean">
+            <li>Disability support services</li>
+            <li>Elderly care assistance</li>
+            <li>Inclusive training opportunities</li>
+            <li>Accessibility support</li>
+            <li>Mobility and welfare assistance</li>
+            <li>Special needs family support</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <div id="global-footer"></div>
+  <div class="chatbot" id="chatbot"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
