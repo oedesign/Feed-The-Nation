@@ -8,7 +8,7 @@ const scriptures = [
 const navItems = [
   ['index.html', 'Home'], ['community-support-hub.html', 'Community Services'], ['programs.html', 'Programs'],
   ['jobs.html', 'Jobs'], ['surveys.html', 'FTN Surveys'], ['marketplace.html', 'Marketplace'],
-  ['about.html', 'About'], ['resources.html', 'Resources'], ['events.html', 'Events'], ['contact.html', 'Contact']
+  ['about.html', 'About'], ['resources.html', 'Resources'], ['events.html', 'Events'], ['donate-sponsor.html', 'Donate & Sponsor'], ['contact.html', 'Contact']
 ];
 
 function parseJSON(value, fallback) {
@@ -89,7 +89,7 @@ function renderShell() {
       <div><h4>Platform</h4><a href="community-support-hub.html">Services</a><br><a href="programs.html">Programs</a><br><a href="jobs.html">Jobs</a></div>
       <div><h4>Growth</h4><a href="dashboard.html">Dashboard</a><br><a href="signup.html">Referral Rewards</a><br><a href="marketplace.html">Marketplace</a></div>
       <div><h4>Company</h4><a href="about.html">About</a><br><a href="partnerships.html">Partnerships</a><br><a href="success-stories.html">Success Stories</a></div>
-      <div><h4>Support</h4><a href="faq.html">FAQ</a><br><a href="contact.html">Contact</a><p class="small">hello@ftn.ng<br>+234 800 000 0000</p></div>
+      <div><h4>Support</h4><a href="faq.html">FAQ</a><br><a href="donate-sponsor.html">Donate & Sponsor</a><br><a href="contact.html">Contact</a><p class="small">hello@ftn.ng<br>+234 800 000 0000</p></div>
     </div></footer>`;
 
   const navLinks = document.getElementById('navLinks');
@@ -120,7 +120,9 @@ function initChatbot() {
     job: 'Go to Jobs page to search roles by keyword and location.',
     survey: 'Open FTN Surveys to complete community needs forms and feedback.',
     dashboard: 'Dashboard shows wallet coins, referrals, purchased programs, marketplace history, and account settings.',
-    marketplace: 'Use FTN Marketplace to find listings and track marketplace actions in your dashboard.'
+    marketplace: 'Use FTN Marketplace to find listings and track marketplace actions in your dashboard.',
+    donate: 'Visit Donate & Sponsor to support community projects through one-time gifts, monthly giving, or sponsorship packages.',
+    sponsor: 'Visit Donate & Sponsor to support community projects through one-time gifts, monthly giving, or sponsorship packages.'
   };
   const body = document.getElementById('chatBody');
   document.getElementById('chatToggle').onclick = () => document.getElementById('chatWin')?.classList.toggle('open');
